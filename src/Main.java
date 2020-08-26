@@ -7,9 +7,9 @@ public class Main {
         System.out.printf("Аргумент a = %s\n", a);
         System.out.printf("Аргумент b = %s\n", b);
         BinOps bins = new BinOps();
-        System.out.println("Демонстрация операция сложения:");
+        System.out.println("Демонстрация операции сложения:");
         System.out.println(bins.sum(a, b));
-        System.out.println("Демонстрация операция умножения:");
+        System.out.println("Демонстрация операции умножения:");
         System.out.println(bins.mult(a, b));
     }
 }
